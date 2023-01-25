@@ -1,20 +1,15 @@
 package com.vondrastic.gdxgui;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
-
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
-import com.badlogic.gdx.scenes.scene2d.ui.Button;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GuiObjectPanel extends GuiObject implements GuiObjectButtonEvent{
 	// ToDo: Add methods to support children game objects
@@ -139,8 +134,7 @@ public class GuiObjectPanel extends GuiObject implements GuiObjectButtonEvent{
 		}
 
 		@Override
-		public boolean scrolled(int amount) {
-			// TODO Auto-generated method stub
+		public boolean scrolled(float amountX, float amountY) {
 			return false;
 		}
 

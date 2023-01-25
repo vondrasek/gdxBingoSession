@@ -179,29 +179,31 @@ public class GuiObjectTrivia extends GuiObject{
 			super.draw(sb);
 			//Draw TIttle:
 			int timeLeft = (int)(timeout - stateTime);
-			msgWidth = Assets.font32.getBounds(title + " Time Left: " + timeLeft).width;
+
+			msgWidth = Utils.getTextBoundsWidth(Assets.font32, title + " Time Left: " + timeLeft);
 			Assets.font32.draw(sb, title + " Time Left: " + timeLeft, super.sprite.getX() + (super.sprite.getWidth() / 2) - (msgWidth / 2)  , super.sprite.getY() + (super.sprite.getHeight()));		
 			if(Guess > 0){
 				if(isCorrect()){
 					Assets.font32.setColor(0, 1, 0, 1);
-					msgWidth = Assets.font32.getBounds("Correct!").width;
+
+					msgWidth = Utils.getTextBoundsWidth(Assets.font32, "Correct!");
 					Assets.font32.draw(sb, "Correct", super.sprite.getX() + (super.sprite.getWidth() / 2) - (msgWidth / 2)  , super.sprite.getY() + (super.sprite.getHeight() - 150));		
 				}else{
 					Assets.font32.setColor(1, 0, 0, 1);
-					msgWidth = Assets.font32.getBounds("Wrong").width;
+					msgWidth = Utils.getTextBoundsWidth(Assets.font32, "Wrong!");
 					Assets.font32.draw(sb, "Wrong", super.sprite.getX() + (super.sprite.getWidth() / 2) - (msgWidth / 2)  , super.sprite.getY() + (super.sprite.getHeight() - 150));
 				}
 			}
 			
 			Assets.font32.setColor(1, 1, 1, 1);
-			msgWidth = Assets.font32.getBounds(Question).width;
+			msgWidth = Utils.getTextBoundsWidth(Assets.font32, Question);
 			if(msgWidth > super.getWidth()){// Split into two parts
 				int start = Question.length()/2;
 				int q1 = Question.indexOf(" ", start);
 				String Q1 = Question.substring(0, q1);
 				String Q2 = Question.substring(q1);
-				float msgWidthQ1 = Assets.font32.getBounds(Q1).width;
-				float msgWidthQ2 = Assets.font32.getBounds(Q2).width;
+				float msgWidthQ1 = Utils.getTextBoundsWidth(Assets.font32, Q1);
+				float msgWidthQ2 = Utils.getTextBoundsWidth(Assets.font32, Q2);
 				Assets.font32.draw(sb, Q1, super.sprite.getX() + (super.sprite.getWidth() / 2) - (msgWidthQ1 / 2)  , super.sprite.getY() + (super.sprite.getHeight() - 50));
 				Assets.font32.draw(sb, Q2, super.sprite.getX() + (super.sprite.getWidth() / 2) - (msgWidthQ2 / 2)  , super.sprite.getY() + (super.sprite.getHeight() - 100));
 					

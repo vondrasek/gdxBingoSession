@@ -1,10 +1,10 @@
 package com.vondrastic.gdxgui;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GuiObjectInfoBar extends GuiObject{
 
@@ -68,9 +68,9 @@ public class GuiObjectInfoBar extends GuiObject{
 		if(super.visible){
 			update(deltaTime);
 			String text = getMessage();
-			
-			float msgWidth = Assets.font32.getBounds(text).width;
-			float msgHeight = Assets.font32.getBounds(text).height;
+
+			float msgWidth = Utils.getTextBoundsWidth(Assets.font32, text);
+			float msgHeight = Utils.getTextBoundsHeight(Assets.font32, text);
 			
 			Assets.font32.setColor(1, 1, 1, 1);
 			// Draw

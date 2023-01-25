@@ -132,8 +132,11 @@ public class GuiObjectButton extends GuiObject {
 				super.sprite.draw(SB);
 			}
 			if(text.length() > 0){
-			float msgWidth = Assets.font32.getBounds(text).width;
+			// float msgWidth = Assets.font32.getBounds(text).width;
+				// FontFix
+				float msgWidth = Utils.getTextBoundsWidth(Assets.font32, text);
 			Assets.font32.setColor(textColor); // Added New Must Test
+
 			Assets.font32.draw(SB, text, super.sprite.getX() + (super.sprite.getWidth() / 2) - (msgWidth / 2)  , super.sprite.getY() + (super.sprite.getHeight() * 3/4));
 		
 			}

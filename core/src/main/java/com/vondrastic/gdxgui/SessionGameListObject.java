@@ -1,14 +1,14 @@
 package com.vondrastic.gdxgui;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import com.vondrastic.gdxgui.GameInterface.MENU_CMD;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SessionGameListObject extends GuiObject{
 	private List<GameListItem> gameListItem;
@@ -61,8 +61,8 @@ public class SessionGameListObject extends GuiObject{
 	
 	private void drawItemText(SpriteBatch sb, String txt, float x, float y, Color c){
 		
-		float msgWidth = Assets.font32.getBounds(txt).width;
-		float msgHeight = Assets.font32.getBounds(txt).height;
+		float msgWidth = Utils.getTextBoundsWidth(Assets.font32, txt);
+		float msgHeight = Utils.getTextBoundsHeight(Assets.font32, txt);
 		Assets.font32.setColor(c);
 		Assets.font32.draw(sb, txt , x ,y);
 	
@@ -142,8 +142,8 @@ public class SessionGameListObject extends GuiObject{
 	
 	public void drawHeader(SpriteBatch SB){
 		
-		float msgWidth = Assets.font32.getBounds(header).width;
-		float msgHeight = Assets.font32.getBounds(header).height;
+		float msgWidth = Utils.getTextBoundsWidth(Assets.font32, header);
+		float msgHeight = Utils.getTextBoundsHeight(Assets.font32, header);
 		Assets.font32.setColor(1, 1, 1, 1);
 		Assets.font32.draw(SB, header , listBounds.getX() + (listBounds.getWidth() / 2) - (msgWidth / 2)  , listBounds.getY() + msgHeight + listBounds.getHeight());
 	
@@ -151,8 +151,8 @@ public class SessionGameListObject extends GuiObject{
 	
 	public void drawFooter(SpriteBatch SB){
 		String S = footer + gameListItem.size();
-		float msgWidth = Assets.font32.getBounds(S).width;
-		float msgHeight = Assets.font32.getBounds(S).height;
+		float msgWidth = Utils.getTextBoundsWidth(Assets.font32, S);
+		float msgHeight = Utils.getTextBoundsHeight(Assets.font32, S);
 		Assets.font32.setColor(1, 1, 1, 1);
 		Assets.font32.draw(SB, S , listBounds.getX() + (listBounds.getWidth() / 2) - (msgWidth / 2)  , listBounds.getY() );
 	

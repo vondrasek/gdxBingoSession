@@ -58,7 +58,7 @@ public class BingoBallObject extends GuiObject {
 			}else{
 				super.sprite.draw(SB);
 			}
-			float msgWidth = Assets.font32.getBounds(text).width;
+			float msgWidth = Utils.getTextBoundsWidth(Assets.font32, text);
 			Assets.font32.draw(SB, text, super.sprite.getX() + (super.sprite.getWidth() / 2) - (msgWidth / 2)  , super.sprite.getY() + (super.sprite.getHeight() * 3/4));
 		}
 	}

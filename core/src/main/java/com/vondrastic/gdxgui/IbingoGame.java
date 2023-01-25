@@ -1,11 +1,5 @@
 package com.vondrastic.gdxgui;
 
-import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
@@ -19,8 +13,13 @@ import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.input.GestureDetector.GestureListener;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
-
 import com.vondrastic.gdxgui.BingoCardManager.VIEWLAYOUT;
+
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.util.ArrayList;
+import java.util.List;
 
 public class IbingoGame implements ApplicationListener, GameInterface {
 	public NativeFunctions mNativeFunctions; // ADDED to support Desktop and Android as they are different for each
@@ -847,6 +846,11 @@ public class IbingoGame implements ApplicationListener, GameInterface {
 		}
 
 		@Override
+		public void pinchStop() {
+
+		}
+
+		@Override
 		public boolean panStop(float x, float y, int pointer, int button) {
 			// TODO Auto-generated method stub
 			return false;
@@ -1073,10 +1077,10 @@ public class IbingoGame implements ApplicationListener, GameInterface {
 		}
 
 		@Override
-		public boolean scrolled(int amount) {
+		public boolean scrolled(float amountX, float amountY) {
 			return false;
 		}
-		  
+
 	}
 	
 	private void LoadContent(){

@@ -80,7 +80,7 @@ public class PatternInfoObject extends GuiObject{
 				}
 			}
 			String s =  PG.getName();
-			float msgWidth = Assets.font24.getBounds(s).width;
+			float msgWidth = Utils.getTextBoundsWidth(Assets.font24, s);
 			//float msgHeight = Assets.font32.getBounds(s).height;
 			Assets.font24.setColor(1, 1, 1, 1);
 			Assets.font24.draw(SB, s , super.getX() + (super.getWidth() / 2) - (msgWidth / 2)  , super.getY());

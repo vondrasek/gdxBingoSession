@@ -1,37 +1,48 @@
 package com.vondrastic.gdxgui;
 
-import java.io.File;
-
-import com.badlogic.gdx.Graphics;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 
+import java.io.File;
+
 public class Utils {
 	
 	//Helper function to draw text.. Expand to Have more than one line. 
 	// Also support left, center, right
-	public static float getTextBoundsWidth(GlyphLayout layout){
-		//GlyphLayout layout = new GlyphLayout(); //dont do this every frame! Store it as member
-		//layout.setText(" "); //
+	public static float getTextBoundsWidth(BitmapFont font,String text){
+		GlyphLayout layout = new GlyphLayout(); //dont do this every frame! Store it as member
+		layout.setText(font, text);
 		float width = layout.width;// contains the width of the current set text
 		return width;
 	}
+
+	public static float getTextBoundsHeight(BitmapFont font,String text){
+		GlyphLayout layout = new GlyphLayout(); //dont do this every frame! Store it as member
+		layout.setText(font, text);
+		float height = layout.height;// contains the width of the current set text
+		return height;
+	}
+
 	public static void DrawText(SpriteBatch sb, BitmapFont font, float x, float y,float w, float h, String text){
 		
-		float width = font.getBounds(text).width;
-		float height = font.getBounds(text).height;
+		//float width = font.getBounds(text).width;
+		//float height = font.getBounds(text).height;
+
+		float width = getTextBoundsWidth(font , text);
+		float height = getTextBoundsHeight(font , text);
+
 
 		if(width > w){// Split into parts
 			int start = text.length()/2;
 			int t1 = text.indexOf(" ", start);
 			String T1 = text.substring(0, t1);
 			String T2 = text.substring(t1);
-			float msgWidthT1 = Assets.font32.getBounds(T1).width;
-			float msgWidthT2 = Assets.font32.getBounds(T2).width;
+			// Hacked to get by loss of getBounds for text and GDX
+			float msgWidthT1 = getTextBoundsWidth(font , T1);
+			float msgWidthT2 = getTextBoundsWidth(font , T2);
 			font.draw(sb, T1, x + (w / 2) - (msgWidthT1 / 2)  , y + (h - height));
 			font.draw(sb, T2, x + (w / 2) - (msgWidthT2 / 2)  , y + (h - (h*2)));
 		}else{

@@ -1,13 +1,13 @@
 package com.vondrastic.gdxgui;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import com.vondrastic.gdxgui.GameInterface.MENU_CMD;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MenuItemSelectObject extends GuiObject{
 	
@@ -201,8 +201,8 @@ public class MenuItemSelectObject extends GuiObject{
 	
 	public void drawTitle(SpriteBatch SB){
 	
-		float msgWidth = Assets.font32.getBounds(Title).width;
-		float msgHeight = Assets.font32.getBounds(Title).height;
+		float msgWidth = Utils.getTextBoundsWidth(Assets.font32, Title);
+		float msgHeight = Utils.getTextBoundsHeight(Assets.font32, Title);
 		Assets.font32.setColor(1, 1, 1, 1);
 		Assets.font32.draw(SB, Title , ItemBounds.getX() + (ItemBounds.getWidth() / 2) - (msgWidth / 2)  , ItemBounds.getY() + msgHeight + ItemBounds.getHeight());
 		// Draw the Dauber currently selected and in use:
@@ -213,8 +213,8 @@ public class MenuItemSelectObject extends GuiObject{
 	
 	public void drawFooter(SpriteBatch SB){
 		String S = Footer + (CurrentPage + 1) + " of " + TotalPages;
-		float msgWidth = Assets.font32.getBounds(S).width;
-		float msgHeight = Assets.font32.getBounds(S).height;
+		float msgWidth = Utils.getTextBoundsWidth(Assets.font32, S);
+		float msgHeight = Utils.getTextBoundsHeight(Assets.font32, S);
 		Assets.font32.setColor(1, 1, 1, 1);
 		Assets.font32.draw(SB, S , ItemBounds.getX() + (ItemBounds.getWidth() / 2) - (msgWidth / 2)  , ItemBounds.getY() - msgHeight);
 	

@@ -1,12 +1,12 @@
 package com.vondrastic.gdxgui;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class FlashBoardObject extends GuiObject {
 	String GAMEINFO = "Game Info";
@@ -131,8 +131,9 @@ public class FlashBoardObject extends GuiObject {
 				if(FB.isCalled(nbr)){
 					if(FB.LASTBALL == nbr){
 						String sNbr = Byte.toString(nbr);
-						float msgWidth = Assets.font32.getBounds(sNbr).width;
-						float msgHeight = Assets.font32.getBounds(sNbr).height;
+						Utils.getTextBoundsWidth(Assets.font32, sNbr);
+						float msgWidth = Utils.getTextBoundsWidth(Assets.font32, sNbr);
+						float msgHeight = Utils.getTextBoundsHeight(Assets.font32, sNbr);
 						Assets.font32.setColor(0, 0, 0, 1);
 						
 						sb.setColor(1, 1, 1, 1);

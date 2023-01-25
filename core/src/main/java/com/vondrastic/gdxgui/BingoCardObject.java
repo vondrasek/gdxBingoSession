@@ -1,25 +1,20 @@
 package com.vondrastic.gdxgui;
 
-import java.nio.ByteBuffer;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.badlogic.gdx.Gdx;
-//import com.badlogic.gdx.graphics.GL10;
-//import com.badlogic.gdx.graphics.GL11;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Pixmap;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.Pixmap.Format;
-import com.badlogic.gdx.graphics.TextureData;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.graphics.glutils.FrameBuffer;
 import com.badlogic.gdx.math.Rectangle;
-import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Array;
+
+import java.nio.ByteBuffer;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BingoCardObject extends GuiObject{
 
@@ -237,8 +232,8 @@ public class BingoCardObject extends GuiObject{
 		super.draw(sb);
 		//Draw ID and Score
 		String s =  String.valueOf("Serial# " +  CardReg.getID() + " (" + CardReg.getLevel() + ")" + "           " + CardReg.SCORE + " Away");
-		float msgWidth = Assets.font18.getBounds(s).width;
-		float msgHeight = Assets.font18.getBounds(s).height;
+		float msgWidth = Utils.getTextBoundsWidth(Assets.font18, s);;
+		float msgHeight = Utils.getTextBoundsHeight(Assets.font18, s);// Assets.font18.getBounds(s).height;
 		Assets.font18.setColor(0, 0, 0, 1);
 		Assets.font18.draw(sb, s , super.getX() + (super.getWidth() / 2) - (msgWidth / 2)  , super.getY() + super.getHeight()  - (0.10f * (super.getHeight())));
 		
@@ -326,8 +321,8 @@ public class BingoCardObject extends GuiObject{
 		super.draw(sb);
 		//Draw ID and Score
 		String s =  String.valueOf("Serial# " +  CardReg.getID() + " (" + CardReg.getLevel() + ")" + "           " + CardReg.SCORE + " Away");
-		float msgWidth = Assets.font18.getBounds(s).width;
-		float msgHeight = Assets.font18.getBounds(s).height;
+		float msgWidth = Utils.getTextBoundsWidth(Assets.font18, s);
+		float msgHeight = Utils.getTextBoundsHeight(Assets.font18, s);
 		Assets.font18.setColor(0, 0, 0, 1);
 		Assets.font18.draw(sb, s , super.getX() + (super.getWidth() / 2) - (msgWidth / 2)  , super.getY() + super.getHeight()  - (0.125f * (super.getHeight())));
 		
