@@ -25,20 +25,20 @@ public class Settings {
 	public static String MACADDRESS = null;
 	public static String HOSTNAME = null;
 	public static String IPADDRESS = null;
-	public static String bingoSalesServer = "http://192.168.1.248/";
+	public static String bingoSalesServer = "http://127.0.0.1/";
 	
 	// FTP Server Area
-	public static String FtpSalesServer = "192.168.1.248";
-	public static String FtpSalesPassword = "ibingo";
-	public static String FtpSalesUsername = "ibingo";
+	public static String FtpSalesServer = "127.0.0.1";
+	public static String FtpSalesPassword = "TheWormInTheCore";
+	public static String FtpSalesUsername = "bingo";
 	
-	public static String FtpAdServer = "192.168.1.248";
-	public static String FtpAdPassword = "ibingo";
-	public static String FtpAdUsername = "ibingo";
+	public static String FtpAdServer = "127.0.0.1";
+	public static String FtpAdPassword = "TheWormInTheCore";
+	public static String FtpAdUsername = "bingo";
 	
-	public static String FtpTriviaServer = "192.168.1.248";
-	public static String FtpTriviaPassword = "ibingo";
-	public static String FtpTriviaUsername = "ibingo";
+	public static String FtpTriviaServer = "127.0.0.1";
+	public static String FtpTriviaPassword = "TheWormInTheCore";
+	public static String FtpTriviaUsername = "bingo";
 	
 	// Note %25 is = to % 
 	public static boolean winnerAlert = true;
@@ -46,7 +46,7 @@ public class Settings {
 	public static boolean VIBRATEONTOUCH = true;
 	
 	// Admin settings
-	public static String serverip = "win7macbook15";
+	public static String serverip = "127.0.0.1";
 	public static int serverport = 2222;
 	public static int udpPort = 1414;
 	

@@ -66,6 +66,7 @@ public class Lwjgl3Launcher implements NativeFunctions {
 
 	@Override
 	public String getDeviceID() {
+
 		return null;
 	}
 

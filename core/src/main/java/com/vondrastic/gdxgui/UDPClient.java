@@ -3,8 +3,6 @@ package com.vondrastic.gdxgui;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.util.ArrayList;
-import java.util.List;
 
 public class UDPClient implements Runnable {
 	
@@ -12,7 +10,7 @@ public class UDPClient implements Runnable {
 	public void run() {
 		try {
 			// Retrieve the ServerName
-			InetAddress serverAddr = InetAddress.getByName("BTT-SVR-VER");
+			InetAddress serverAddr = InetAddress.getByName("127.0.0.1");
 			/* Create new UDP-Socket */
 			DatagramSocket socket = new DatagramSocket();		
 			/* Prepare some data to be sent. */

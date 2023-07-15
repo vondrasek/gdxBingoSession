@@ -1,8 +1,8 @@
 package com.vondrastic.gdxgui;
 
-import java.io.File;
-
 import com.badlogic.gdx.Gdx;
+
+import java.io.File;
 
 public class AssetDownloadManager extends Thread{
 
@@ -45,7 +45,7 @@ public class AssetDownloadManager extends Thread{
 		
 		d.mkdir();
 		
-		String localRootPath = Gdx.files.getExternalStoragePath() + "/.iBingoData/";
+		String localRootPath = Gdx.files.getExternalStoragePath() + ".iBingoData/";
 	
 		AssetDownloader ADL = new AssetDownloader();
 		updateStatus("Connecting to server");
