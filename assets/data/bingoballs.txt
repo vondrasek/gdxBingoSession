@@ -1,0 +1,39 @@
+bingoballs.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+N
+  rotate: false
+  xy: 109, 109
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+O
+  rotate: false
+  xy: 2, 216
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+B
+  rotate: false
+  xy: 2, 2
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+G
+  rotate: false
+  xy: 109, 2
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+I
+  rotate: false
+  xy: 2, 109
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1

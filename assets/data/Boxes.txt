@@ -1,0 +1,32 @@
+Boxes.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+present
+  rotate: false
+  xy: 165, 2
+  size: 163, 176
+  orig: 173, 190
+  offset: 8, 6
+  index: 2
+present
+  rotate: false
+  xy: 2, 2
+  size: 161, 178
+  orig: 173, 190
+  offset: 6, 4
+  index: 1
+present
+  rotate: false
+  xy: 330, 2
+  size: 161, 176
+  orig: 173, 190
+  offset: 7, 7
+  index: 4
+present
+  rotate: false
+  xy: 2, 182
+  size: 163, 176
+  orig: 173, 190
+  offset: 4, 5
+  index: 3

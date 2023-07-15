@@ -1,0 +1,984 @@
+menuicons_light.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3_rating_not_important
+  rotate: false
+  xy: 0, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_undo
+  rotate: false
+  xy: 0, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_end_call
+  rotate: false
+  xy: 240, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_expand
+  rotate: false
+  xy: 240, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+11_alerts_and_states_error
+  rotate: false
+  xy: 192, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+12_hardware_computer
+  rotate: false
+  xy: 288, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_cc_bcc
+  rotate: false
+  xy: 192, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_reply_all
+  rotate: false
+  xy: 0, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+7_location_place
+  rotate: false
+  xy: 240, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_upload
+  rotate: false
+  xy: 384, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_replay
+  rotate: false
+  xy: 144, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_dial_pad
+  rotate: false
+  xy: 192, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_play_over_video
+  rotate: false
+  xy: 0, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_add_group
+  rotate: false
+  xy: 96, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+2_action_help
+  rotate: false
+  xy: 96, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+7_location_map
+  rotate: false
+  xy: 192, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_pause_over_video
+  rotate: false
+  xy: 384, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_discard
+  rotate: false
+  xy: 144, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_backspace
+  rotate: false
+  xy: 0, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_bluetooth
+  rotate: false
+  xy: 240, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_remove
+  rotate: false
+  xy: 144, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_mic
+  rotate: false
+  xy: 96, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_sd_storage
+  rotate: false
+  xy: 96, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_repeat
+  rotate: false
+  xy: 96, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_video
+  rotate: false
+  xy: 432, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_import_export
+  rotate: false
+  xy: 336, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_next_item
+  rotate: false
+  xy: 336, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_collapse
+  rotate: false
+  xy: 192, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+12_logout
+  rotate: false
+  xy: 0, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_fast_forward
+  rotate: false
+  xy: 144, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+3_rating_bad
+  rotate: false
+  xy: 240, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+12_hardware_gamepad
+  rotate: false
+  xy: 384, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_read
+  rotate: false
+  xy: 288, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_accounts
+  rotate: false
+  xy: 0, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_bluetooth_searching
+  rotate: false
+  xy: 336, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_cut
+  rotate: false
+  xy: 96, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_new_email
+  rotate: false
+  xy: 48, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+11_alerts_and_states_airplane_mode_off
+  rotate: false
+  xy: 96, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_unread
+  rotate: false
+  xy: 48, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+4_collections_sort_by_size
+  rotate: false
+  xy: 288, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+3_rating_favorite
+  rotate: false
+  xy: 288, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_previous
+  rotate: false
+  xy: 48, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+8_images_slideshow
+  rotate: false
+  xy: 0, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+2_action_settings
+  rotate: false
+  xy: 192, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_group
+  rotate: false
+  xy: 336, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_share
+  rotate: false
+  xy: 96, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_volume_on
+  rotate: false
+  xy: 48, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_shuffle
+  rotate: false
+  xy: 288, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+12_hardware_dock
+  rotate: false
+  xy: 336, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+12_hardware_headphones
+  rotate: false
+  xy: 432, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_pause
+  rotate: false
+  xy: 336, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_switch_camera
+  rotate: false
+  xy: 240, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_select_all
+  rotate: false
+  xy: 384, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_split
+  rotate: false
+  xy: 432, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+2_action_search
+  rotate: false
+  xy: 144, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_cancel
+  rotate: false
+  xy: 144, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+3_rating_good
+  rotate: false
+  xy: 336, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_download
+  rotate: false
+  xy: 96, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_mic_muted
+  rotate: false
+  xy: 144, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_accept
+  rotate: false
+  xy: 48, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_forward
+  rotate: false
+  xy: 288, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_ring_volume
+  rotate: false
+  xy: 384, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_network_wifi
+  rotate: false
+  xy: 240, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_send_now
+  rotate: false
+  xy: 48, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_picture
+  rotate: false
+  xy: 240, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_flash_on
+  rotate: false
+  xy: 384, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_forward
+  rotate: false
+  xy: 288, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_screen_rotation
+  rotate: false
+  xy: 48, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_paste
+  rotate: false
+  xy: 192, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_next
+  rotate: false
+  xy: 288, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_usb
+  rotate: false
+  xy: 384, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+8_images_rotate_right
+  rotate: false
+  xy: 432, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_network_cell
+  rotate: false
+  xy: 192, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_add_to_queue
+  rotate: false
+  xy: 48, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_edit
+  rotate: false
+  xy: 192, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_play
+  rotate: false
+  xy: 432, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_save
+  rotate: false
+  xy: 336, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+4_collections_labels
+  rotate: false
+  xy: 192, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_battery
+  rotate: false
+  xy: 144, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_alarms
+  rotate: false
+  xy: 96, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+7_location_web_site
+  rotate: false
+  xy: 288, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_screen_locked_to_portrait
+  rotate: false
+  xy: 0, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_screen_locked_to_landscape
+  rotate: false
+  xy: 432, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_merge
+  rotate: false
+  xy: 384, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+8_images_rotate_left
+  rotate: false
+  xy: 384, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_new_picture
+  rotate: false
+  xy: 144, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_event
+  rotate: false
+  xy: 288, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+3_rating_important
+  rotate: false
+  xy: 432, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_attachment
+  rotate: false
+  xy: 432, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+4_collections_view_as_list
+  rotate: false
+  xy: 384, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_reply
+  rotate: false
+  xy: 432, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_storage
+  rotate: false
+  xy: 192, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_brightness_high
+  rotate: false
+  xy: 432, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_brightness_medium
+  rotate: false
+  xy: 0, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_new_account
+  rotate: false
+  xy: 288, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_new_attachment
+  rotate: false
+  xy: 0, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_rewind
+  rotate: false
+  xy: 240, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_new_event
+  rotate: false
+  xy: 96, 432
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+2_action_exit
+  rotate: false
+  xy: 48, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+2_action_about
+  rotate: false
+  xy: 0, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_return_from_full_screen
+  rotate: false
+  xy: 192, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+3_rating_half_important
+  rotate: false
+  xy: 384, 288
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_back
+  rotate: false
+  xy: 96, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_bluetooth_connected
+  rotate: false
+  xy: 288, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_full_screen
+  rotate: false
+  xy: 192, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_flash_automatic
+  rotate: false
+  xy: 288, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_call
+  rotate: false
+  xy: 48, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_bightness_low
+  rotate: false
+  xy: 192, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+11_alerts_and_states_warning
+  rotate: false
+  xy: 240, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_stop
+  rotate: false
+  xy: 336, 624
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_location_off
+  rotate: false
+  xy: 0, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_add_person
+  rotate: false
+  xy: 144, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_add_alarm
+  rotate: false
+  xy: 48, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_data_usage
+  rotate: false
+  xy: 144, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+4_collections_collection
+  rotate: false
+  xy: 96, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_new
+  rotate: false
+  xy: 432, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_location_found
+  rotate: false
+  xy: 432, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+4_collections_new_label
+  rotate: false
+  xy: 240, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_time
+  rotate: false
+  xy: 336, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+8_images_crop
+  rotate: false
+  xy: 336, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_brightness_auto
+  rotate: false
+  xy: 384, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_chat
+  rotate: false
+  xy: 240, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+4_collections_view_as_grid
+  rotate: false
+  xy: 336, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_refresh
+  rotate: false
+  xy: 432, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_not_secure
+  rotate: false
+  xy: 336, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+9_av_make_available_offline
+  rotate: false
+  xy: 240, 576
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_email
+  rotate: false
+  xy: 240, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_camera
+  rotate: false
+  xy: 96, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+1_navigation_previous_item
+  rotate: false
+  xy: 384, 240
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_secure
+  rotate: false
+  xy: 144, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_location_searching
+  rotate: false
+  xy: 48, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+11_alerts_and_states_airplane_mode_on
+  rotate: false
+  xy: 144, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_flash_off
+  rotate: false
+  xy: 336, 48
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+4_collections_cloud
+  rotate: false
+  xy: 48, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+4_collections_go_to_today
+  rotate: false
+  xy: 144, 336
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+6_social_person
+  rotate: false
+  xy: 384, 480
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+7_location_directions
+  rotate: false
+  xy: 144, 528
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+5_content_copy
+  rotate: false
+  xy: 48, 384
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_volume_muted
+  rotate: false
+  xy: 0, 192
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+10_device_access_switch_video
+  rotate: false
+  xy: 288, 144
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1

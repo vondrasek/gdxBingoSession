@@ -21,7 +21,7 @@ import java.net.DatagramSocket;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IbingoGame implements ApplicationListener, GameInterface {
+public class gdxGuiGame implements ApplicationListener, GameInterface {
 	public NativeFunctions mNativeFunctions; // ADDED to support Desktop and Android as they are different for each
 	private OrthographicCamera camera;
 	private SpriteBatch batch;
@@ -69,7 +69,7 @@ public class IbingoGame implements ApplicationListener, GameInterface {
 	private InputMultiplexer inputmultiplexer = new InputMultiplexer();
 
 	// Added SQLInterface to support database on desktop and android versions
-	public IbingoGame(NativeFunctions nativefunctions){
+	public gdxGuiGame(NativeFunctions nativefunctions){
 		mNativeFunctions = nativefunctions;
 	}
 	
@@ -295,7 +295,7 @@ public class IbingoGame implements ApplicationListener, GameInterface {
 		}
 		
 		Settings.DEVICEID = mNativeFunctions.getDeviceID();
-		Settings.MACADDRESS = mNativeFunctions.getWifiState().replace(":", "-"); // added replace to comply with windows machines.
+		//Settings.MACADDRESS = mNativeFunctions.getWifiState().replace(":", "-"); // added replace to comply with windows machines.
 		Settings.HOSTNAME = mNativeFunctions.getHostName();
 		Settings.IPADDRESS = mNativeFunctions.getWifiIpaddress();
 		
@@ -409,7 +409,6 @@ public class IbingoGame implements ApplicationListener, GameInterface {
 			if(BIB.visible){
 				BIB.draw(batch, deltatime);
 			}
-			
 			BCM.Draw(batch, deltatime);
 			
 			if(FBO.visible){

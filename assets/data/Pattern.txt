@@ -1,0 +1,18 @@
+Pattern.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+patternbox
+  rotate: false
+  xy: 25, 0
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+pat_on
+  rotate: false
+  xy: 0, 0
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1

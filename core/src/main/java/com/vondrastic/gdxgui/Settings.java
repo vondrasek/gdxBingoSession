@@ -2,18 +2,18 @@
 
 package com.vondrastic.gdxgui;
 
+import com.badlogic.gdx.Gdx;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-import com.badlogic.gdx.Gdx;
-
 public class Settings {
 	// Game settings
 	public static final boolean DEBUG = true;
-	public static boolean server = true;
+	public static boolean server = false;
 	public static int debugWifiPacketCount = 0;
 	
 	public static boolean soundEnabled = true;

@@ -1,0 +1,32 @@
+flashboard.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flashOff
+  rotate: false
+  xy: 0, 135
+  size: 512, 135
+  orig: 512, 135
+  offset: 0, 0
+  index: -1
+flashGreen
+  rotate: false
+  xy: 0, 0
+  size: 512, 135
+  orig: 512, 135
+  offset: 0, 0
+  index: -1
+flashOneAway
+  rotate: false
+  xy: 0, 270
+  size: 512, 135
+  orig: 512, 135
+  offset: 0, 0
+  index: -1
+flashRed
+  rotate: false
+  xy: 0, 405
+  size: 512, 135
+  orig: 512, 135
+  offset: 0, 0
+  index: -1
